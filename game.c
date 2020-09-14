@@ -57,7 +57,7 @@ int main(int argc, char *argv[]) {
 	glfwSetWindowTitle(GAME_TITLE);
 	glfwSwapInterval(1);
 
-	sprites_texture = glLoadSpriteset(
+	sprites_texture = glLoadSpriteSet(
 			"images/cards.tga",
 			sprites_images,
 			SPRITES_BITMAP_WIDTH,
